@@ -1,0 +1,58 @@
+button {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.boxed {
+  border-style: solid;
+  border-width: thin;
+  border-color: #584c27;
+  background-color: #eee8d5;
+}
+.article__grid {
+  display: grid;
+  background-color: #fdf6e3;
+  grid-template-areas:
+    "image-box header header"
+    "image-box profile profile"
+    "image-box free free"
+    "blurb blurb blurb"
+    "links links links";
+  margin: 1rem auto 1rem auto;
+  padding: 10px 10px 10px 10px;
+  width: 70%;
+  height: 90vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.article__header {
+  grid-area: header;
+}
+.article__image-box {
+  grid-area: image-box;
+  margin-right: 1rem;
+}
+.article__image-box--image {
+  max-height: 600px;
+}
+.article__profile {
+  grid-area: profile;
+}
+.article__minor-variants {
+  grid-area: free;
+}
+.article__minor-variants ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+.article__minor-variants--active-list-item {
+  font-weight: bold;
+}
+.article__footer--blurb {
+  grid-area: blurb;
+  align-self: center;
+}
+.article__footer--lore-links {
+  grid-area: links;
+  align-self: center;
+}

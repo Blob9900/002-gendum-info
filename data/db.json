@@ -1,0 +1,101 @@
+{
+  "robotInfo": [
+    {
+      "id": "null",
+      "designation": "NO DATA FOUND",
+      "type": "NO DATA FOUND",
+      "imagePath": "/images/nodata00.png",
+      "imageArtist": "UNKNOWN",
+      "height": "??.?m",
+      "weight": "??.?t",
+      "designer": "UNKNOWN",
+      "debut": "UNKNOWN",
+      "innerChartPath": "NO DATA FOUND",
+      "blurb": "NO DATA FOUND",
+      "loreLinks": ["NO DATA FOUND"]
+    },
+    {
+      "id": "default",
+      "designation": "NO DATA FOUND",
+      "type": "NO DATA FOUND",
+      "imagePath": "/images/nodata00.png",
+      "imageArtist": "UNKNOWN",
+      "height": "??.?m",
+      "weight": "??.?t",
+      "designer": "UNKNOWN",
+      "debut": "UNKNOWN",
+      "innerChartPath": "NO DATA FOUND",
+      "blurb": "NO DATA FOUND",
+      "loreLinks": ["NO DATA FOUND"]
+    },
+    {
+      "id": "test",
+      "designation": "Testing designation field",
+      "type": "Testing type field",
+      "imagePath": "Testing imagePath field",
+      "imageArtist": "Testing imageArtist field",
+      "height": "Testing height field",
+      "weight": "Testing weight field",
+      "designer": "Testing designer field",
+      "debut": "Testing debut field",
+      "innerChartPath": "Testing innerChartPath field",
+      "blurb": "Testing blurb field",
+      "loreLinks": ["Testing loreLinks field 0", "Testing loreLinks field 1"]
+    },
+    {
+      "id": "rx93",
+      "designation": "RX-93 \"ν Gundam\"",
+      "type": "Prototype Earth Federation Forces Newtype Mobile Suit",
+      "imagePath": "/images/rx93-lineart00.png",
+      "imageArtist": "Kyoshi Takigawa",
+      "height": "22.0m",
+      "weight": "63.0t",
+      "designer": "Izubuchi Yutaka",
+      "debut": "CCA",
+      "innerChartPath": "NO DATA FOUND",
+      "blurb": "A prototype Newtype MS for Amuro Ray. It was constructed at Anaheim Electronics' Von Braun factory. Amuro himself participated in the designing of this MS, which was premised as being equipped with a fully specced-out psychommu. The average values of all the \"Gundam\" series MS constructed prior were used as its base. Additionally, a new material called psychoframe was utilized, resulting in enhanced psychommu capabilities and increased responsiveness. This MS was equipped with Fin Funnels.",
+      "loreLinks": ["NO DATA FOUND"]
+    },
+    {
+      "id": "rx0",
+      "designation": "RX-0 \"Unicorn Gundam\" (Unicorn Mode)",
+      "type": "Prototype Full Psychoframe Implementing Mobile Suit",
+      "imagePath": "/images/rx0-lineart00.png",
+      "imageArtist": "Kyoshi Takigawa",
+      "height": "19.7m",
+      "weight": "23.7t",
+      "designer": "Hajime Katoki",
+      "debut": "Unicorn",
+      "innerChartPath": "NO DATA FOUND",
+      "blurb": "A prototype MS developed by Anaheim Electronics in accordance to \"Project UC\", which had secretly been progressing in the background since the EFF commissioned the project. This MS was characterized by its all white body and unicorn-like horn. It utilized a \"full psychoframe\" construction, meaning that its entire movable frame used psychoframe in its composition.",
+      "loreLinks": ["NO DATA FOUND"]
+    }
+  ],
+  "minorVariants": [
+    {
+      "id": "null",
+      "names": ["NO DATA FOUND"],
+      "minorIds": ["null"]
+    },
+    {
+      "id": "default",
+      "names": ["NO DATA FOUND"],
+      "minorIds": ["default"]
+    },
+    {
+      "id": "test",
+      "names": ["Testing names field 0", "Testing names field 1"],
+      "minorIds": ["Testing minorIds field 0", "Testing minorIds field 1"]
+    },
+    {
+      "id": "rx93",
+      "names": ["Nu Gundam", "Nu Gundam Twin Funnel Variant", "Unicorn"],
+      "minorIds": ["rx93", "null", "rx0"]
+    },
+    {
+      "id": "rx0",
+      "names": ["Unicorn (Unicorn Mode)", "Unicorn (Destroy Mode)", "Nu"],
+      "minorIds": ["rx0", "null", "rx93"]
+    }
+  ]
+}

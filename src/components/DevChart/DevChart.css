@@ -1,0 +1,15 @@
+.chart__viewer--header {
+  height: 3vh;
+}
+
+.chart__viewer--chart-area {
+  margin: auto;
+  width: 90%;
+  height: 90vh;
+  border: 5px solid black;
+  overflow: hidden;
+}
+
+.chart__viewer--image {
+  position: relative;
+}

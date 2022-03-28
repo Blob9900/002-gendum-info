@@ -1,0 +1,25 @@
+body {
+  background-color: #fdf6e3;
+}
+
+.App {
+  text-align: center;
+  width: auto;
+}
+
+.app__side-window--container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.invisible {
+  transform: translate(100vw, 0);
+}
+
+.visible {
+  transform: translate(0vw, 0);
+  backdrop-filter: brightness(50%) blur(5px);
+}
